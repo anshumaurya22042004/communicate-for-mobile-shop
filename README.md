@@ -148,3 +148,105 @@ primium smartphones with affordable prices. Our team is dedicated to providing e
 </footer>
 </body>
 </html>
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            background-image:url("genz devices.png");  
+            background:cover;
+           
+}
+        header {
+            background: #060e07;
+            color:rgb(166, 124, 124);
+            padding:0px;
+                text-align: center;
+                top:left;
+                padding: 20px;
+               
+        }
+        
+        nav {
+            background: #133515;
+            padding: 10px;
+            display: inline-block;
+                text-align: center;
+                display: flex;
+                justify-content: space-evenly;
+                white-space: evenly;
+            }
+        nav a {
+            color: rgb(138, 58, 58);
+            margin: 50px;
+            text-decoration: center;
+            font-weight: bold;
+        }
+         nav a:hover {
+            text-decoration: underline;
+         }
+        .products {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+             @keyframes producthover  {
+                from {font-size: 15px;}
+                to {font-size: 20px;}
+                }
+
+            }
+            .hr {
+              color:solid bold;
+            }
+             .card:hover {
+                animation: producthover 0.3s forwards;
+            }
+    
+
+        .card {
+            background: rgb(140, 170, 177);
+            padding: 15px;
+            border-radius: 10px;
+            width: 300px;
+            height: 550px;
+            box-shadow: 0 0 10px rgb(170, 130, 130);
+            text-align: center;
+           justify-content: space-evenly;
+        }        
+
+        .card img { width: 100%;
+            border-radius: 10px;
+        }
+
+        form {
+            background: rgb(139, 164, 174);
+            padding: 35px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin-left:20px;
+            margin-right:10px;
+        }
+
+        input, textarea {
+            width: 50%;
+            padding: 20px;
+            margin: 8px 0;
+        }
+        
+        button {
+            background: #bbbdbb;
+            color: rgb(171, 127, 127);
+            padding: 10px;
+            border: solid 1px rgb(99, 59, 59);
+            cursor: pointer;
+
+        }
+             button:hover {
+            background: #182c19;
+        }
+
+        footer {
+            background: #060e07;
+            color: rgb(134, 102, 102);
+            text-align: center;
+            padding: 10px;
+        }
